@@ -1,0 +1,35 @@
+		----1----
+
+Tisztelettel köszöntök mindenkit. Először is beszeretnék mutatkozni. Radó Bencének hívnak, 2018 Szeptemberében kezdtem a tanulmányaimat a Pannon Egyetemen. Ezúton is szeretném megköszönni témavezetőmnek, Machalik Károlynak, hogy támogatott munkám során. A téma amit választottam, Kotlin web scraping fejlesztése.
+
+		----2----
+
+Mi is az a Kotlin? A nevét a SzentPétervár melletti Kotlin sziget után kapta. A Kotlin egy objektumorientált programnyelv. A JAVA nyelvvel oda-vissza kompatibilis. Az egyik nagy előnye a nyelvnek, hogy nagyon sok platformra készíthetünk vele küldönféle alkalmazásokat. Párat fel is sorolnék: Windows, Linux alkalmazásokat lehet vele készíteni, Mac-ra is tudunk fejleszteni. A JVM hiba nélkül értelmezi a nyelvet. 2019 májusától a Kotlin lett az elsődlegesen támogatott nyelv az android fejlesztésben. 
+
+		----3----
+
+Mi az a web scraping? Nagyon sok fölösleges információk találhatók külöböző weboldalakon, továbbá nagyon bonyolult, összetett oldalak is léteznek. A web scraping ebben segít nekünk. Nem kell többet kézzel kimásolgatni több száz, vagy akár több ezer adatot saját magunknak, hiszen a web scrarping előre definiált paraméterek alapján kinyeri a nekünk szükséges adatokat az adott oldalakról.
+
+		----4----
+
+Kutatásom során nagyon sok hasonló programmal találkoztam. Amelyeket részletesebben is kielemeztem a következők: Import.io, OutWit Hub, Beautiful Soup és a Scrapy. Mindengyiknek meg vannak az előnyei illetve a hátrányai is. A legszembetűnőbb előnynek a széles funkcionalitást találtam (Import.io). Hátrányok közül többet is kiemelnék. A legtöbb web scraping program használatáért, havi, esetleg éves díjat kell fizetnünk. Amit még nagy hátránynak tartok, hogy valamelyik program használatához szükségünk van programozási ismeretekre (Beautiful Soup, Scrapy). Az utolsó hátrány amit kiemelnék, az a bonyolult felhasználói felület. Némelyik alkalmazás olyan széles funkcionalitással rendelkezik, hogy több órába is telhet mire kényelmesen tudjuk használni.
+
+		----5----
+
+Tervezésem során ezekből az előnyökből, illetve hátrányokból tudtam ötleteket meríteni. A saját alkalmazásomnak egy letisztult grafikus felhasználói felületet terveztem, amely bárki számára könnyen értelmezhető. Amit még fontosnak tartok az alkalmazásom fejlesztése során, hogy ingyenesen, bárki számára elérhető legyen.
+
+		----6----
+
+A böngészőmotor kiválasztásánál a Blinket választottam. Támogatja a Google Chrome, Opera, illetve a többi Chromium alapú böngészőt. Operációs rendszert tekintve platformfüggetlen, amely által jóval több eszközön lehet majd futtatni a Alkalmazást.
+
+		----7----
+
+Fejlesztésem során az IntelliJ fejlesztőkörnyezetet használom. Ez a környezet nagyon felhasználóbarát és könnyen kezehető. Amennyiben szintaktikai hibát ejtünk a kódolás során, azonnal kapunk különböző javaslatokat a kijavítására. Alkalmazásom fejlesztését a grafikus felhasználói felülettel kezdtem, amely letisztult és bárki számára könnyen kezelhető.
+
+		----8----
+
+Megvalósítandó céloknak ezeket tűztem ki a jövőt tekintve. Testreszabhatóság alatt azt értem, hogy különböző paramétereket lehet majd beállítani, annak megfelelően, hogy a felhasználó milyen típusú adatokat szeretne kiynerni a weboldalról. A könnyű kezelést is fontosnak tartom alkalmazásom fejlesztése során. Szerintem nagyon sok embernek el tudja venni a kedvét a túl bonyolult rendszer, aminek a használatába nagyon nehéz beletanulni. Továbbá a kigyűjtött adatokat exportálhatóvá szeretném tenni Excel táblázatokba. A Hibamentességre törekszem a fejlesztés során, ezt úgy érem el, hogy nagyon sok, különböző típusú weboldalon szeretném tesztelni a programot.
+
+		----9----
+
+Összegzésként: Egy web scraping programot fejlesztek Kotlin nyelven. A web scraping alkalmazás segítségével automatizáltan tudunk adatokat kinyerni adott weboldalakról. Nagyon hosszú kutatás után összegeztem a hasonló alkalmazások előnyeit, hátrányait, és ezek adták az alapot az én programom fejlesztése során. Az IntelliJ fejlesztői környezetben dolgozom a feladatom során. Köszönöm szépen a figyelmet!
