@@ -310,12 +310,13 @@ class Scraper {
 
                                     var atIndex: Int = it.indexOf("@")
 
-                                    if ((it.endsWith(".com", true) && comCheckBox.isSelected) ||
+                                    if (((it.endsWith(".com", true) && comCheckBox.isSelected) ||
                                         (it.endsWith(".uk", true) && ukCheckBox.isSelected) ||
                                         (it.endsWith(".hu", true) && huCheckBox.isSelected) ||
                                         (it.endsWith(".org", true) && orgCheckBox.isSelected) ||
-                                        (it.endsWith(".net", true) && netCheckBox.isSelected) &&
-                                        !filteredEmails.contains(it) && it.substring(0, atIndex).length <= 64
+                                        (it.endsWith(".net", true) && netCheckBox.isSelected)) &&
+                                        !filteredEmails.contains(it) && it.substring(0, atIndex).length <= 64 &&
+                                                !it.contains("..")
                                     ) {
 
                                         filteredEmails += it
@@ -467,7 +468,7 @@ class Scraper {
 
                                 var file2 = FileWriter("$dest\\Table$x.txt")
 
-                                var tables: Elements = doc.select("table")
+                                        var tables: Elements = doc.select("table")
 
                                 for (table in tables) {
 
